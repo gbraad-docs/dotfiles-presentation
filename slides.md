@@ -95,6 +95,19 @@ $ hello Gerard Braad
 ```
 
 ---
+`~/.zshrc` for `git`
+```bash
+alias g="git"
+alias gs="g status"
+alias ga="g add"
+alias gad="ga ."
+alias gc="g commit"
+alias gcm="gc -m"
+alias gca="gc --amend"
+alias gpf="g push -f"
+```
+
+---
 ## limitations
 
 ---
