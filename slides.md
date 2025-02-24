@@ -14,13 +14,16 @@ enableZoom: false
 enableSearch: false
 overview: true
 ---
+
 This slide intentionally left blank
 <!-- element class="fragment fade-out" -->
 
 ---
+
 # .dotfiles
 
 ---
+
 # Why
 
 ---
@@ -28,12 +31,25 @@ This slide intentionally left blank
 ## `${HOME}`-less
 
 ---
+
 ## notebook got stolen
 
 ---
-## backup was on the machine
+
+## backup ?
 
 ---
+
+```bash
+$ ls -al ~
+...
+drwxr-xr-x 22 gbraad gbraad   4096 Feb 18 23:10 .dotfiles
+-rw-------  1 gbraad gbraad  38154 Feb 23 12:00 .dotfiles.tgz
+...
+```
+
+---
+
 # How
 
 ---
@@ -45,9 +61,11 @@ This slide intentionally left blank
 ## Minimal
 
 ---
+
 # I <font color="red">&lt;3</font> Shell
 
 ---
+
 # command line interface
 
 ---
@@ -79,6 +97,7 @@ This slide intentionally left blank
 # Aliases
 
 ---
+
 ## shorten commands
 
 ---
@@ -95,6 +114,7 @@ $ hello Gerard Braad
 ```
 
 ---
+
 `~/.zshrc` for `git`
 ```bash
 alias g="git"
@@ -108,9 +128,11 @@ alias gpf="g push -f"
 ```
 
 ---
+
 ## limitations
 
 ---
+
 # Functions
 
 ---
@@ -123,6 +145,7 @@ $ hate systemd  #  really?
 ```
 
 ---
+
 ## arguments
 
 ---
@@ -149,9 +172,11 @@ $ just test [testname]
 ```
 
 ---
+
 # Distribute
 
 ---
+
 ## tarballs
 
 ---
@@ -160,6 +185,7 @@ $ just test [testname]
 
 
 ---
+
 # Git and stow
 
 ---
@@ -190,6 +216,7 @@ lrwxrwxrwx  1      20 Jun  1  2023 .zshrc ->
 ```
 
 ---
+
 ## alternatives
 
 ### Chezmoi, tuckr, etc
@@ -209,6 +236,7 @@ lrwxrwxrwx  1     36 Feb 19 15:00 dotfiles ->
 ```
 
 ---
+
 ## ini-files
 
 ---
@@ -220,6 +248,7 @@ lrwxrwxrwx  1     36 Feb 19 15:00 dotfiles ->
 ```
 
 ---
+
 `~/.local/bin/isalive.zsh`
 ```bash
 #~/bin/zsh
@@ -247,9 +276,11 @@ $ isalive.zsh ncognito
 ```
 
 ---
+
 # `source`
 
 ---
+
 `~/.zshrc`
 ```bash
 # User specific aliases and functions
@@ -261,6 +292,7 @@ fi
 ```
 
 ---
+
 ## `.zshrc.d/*.?sh`
 
 ---
@@ -302,6 +334,7 @@ rtt min/avg/max/mdev = 0.958/1.371/1.738/0.320 ms
 ```
 
 ---
+
 # my .dotfiles
 
 ### [dotfiles.gbraad.nl](https://github.com/gbraad-dotfiles)
@@ -342,4 +375,5 @@ $ curl -fsSL dotfiles.gbraad.nl/install.sh | sh
 ## [github.com/gbraad-devenv](https://github.com/gbraad-devenv)
 
 ---
+
 # ...
