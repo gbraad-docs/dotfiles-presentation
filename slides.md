@@ -24,6 +24,10 @@ This slide intentionally left blank
 
 ---
 
+## Where `${HOME}` is best
+
+---
+
 # Why
 
 ---
