@@ -3,7 +3,7 @@
 
 
 An introductionary presentation to the use of simple steps, like `alias` and `functions`
-can help you to automate your workflow and better better at `${HOME}` on your machine.
+can help you to automate your workflow and feel better at `${HOME}` on your machine.
 
 
 Authors
